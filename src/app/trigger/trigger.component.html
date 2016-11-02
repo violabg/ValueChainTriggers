@@ -1,0 +1,26 @@
+<div class="demo-container" mdl-shadow="2" *ngIf="trigger">
+  <mdl-layout mdl-layout-fixed-header mdl-layout-tab-active-index="0">
+    <mdl-layout-header>
+      <mdl-layout-header-row>
+        <mdl-layout-title>{{trigger.name}}</mdl-layout-title>
+      </mdl-layout-header-row>
+    </mdl-layout-header>
+    <mdl-layout-content>
+      <mdl-layout-tab-panel>
+        <mdl-tab-panel-title>
+          <mdl-icon class="mdl-color-text--primary">person</mdl-icon><span>Description</span>
+        </mdl-tab-panel-title>
+        <mdl-tab-panel-content>
+          <p>{{trigger.description}}</p>
+        </mdl-tab-panel-content>
+      </mdl-layout-tab-panel>
+      <mdl-layout-tab-panel mdl-layout-tab-panel-title="Images" *ngIf="trigger.images" #panel>
+        <app-images [images]="trigger.images" [initialize]="panel.isActive"></app-images>
+      </mdl-layout-tab-panel>
+      <mdl-layout-tab-panel mdl-layout-tab-panel-title="Video" *ngIf="trigger.movie">
+        <video src="assets/video/{{trigger.movie}}"></video>
+      </mdl-layout-tab-panel>
+    </mdl-layout-content>
+  </mdl-layout>
+</div>
+

@@ -1,0 +1,40 @@
+{
+    "products": [{
+        "id": 1,
+        "images": [
+      "W6_T1_NP-03326-0033.png",
+      "W6_T1_NP-03326-0033_O.png",
+      "W6_T1_Panoramica_MS5002E_Compact_Package.png"
+    ],
+        "name": "title",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio deleniti maxime aspernatur nisi cumque voluptates, perferendis eligendi minus rerum blanditiis officia molestiae sequi error nam quisquam quia praesentium ipsum saepe?",
+        "position": {
+            "x": "150.0",
+            "y": "100.0"
+        }
+  }, {
+        "id": 2,
+        "images": [
+      "W6_T6_impulse_steam.png"
+    ],
+        "name": "title",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio deleniti maxime aspernatur nisi cumque voluptates, perferendis eligendi minus rerum blanditiis officia molestiae sequi error nam quisquam quia praesentium ipsum saepe?",
+        "position": {
+            "x": "700.0",
+            "y": "100.0"
+        }
+  }, {
+        "id": 3,
+        "images": [
+      "W6_T11_MGC_9447.png",
+      "W6_T11_MGC_9559.png",
+      "W6_T11_MGC_9592.png"
+    ],
+        "name": "title",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio deleniti maxime aspernatur nisi cumque voluptates, perferendis eligendi minus rerum blanditiis officia molestiae sequi error nam quisquam quia praesentium ipsum saepe?",
+        "position": {
+            "x": "1250.0",
+            "y": "100.0"
+        }
+  }]
+}
